@@ -1,3 +1,3 @@
-# Artix
+# Reduxal
 
-Artix stores all articles published on [medium](https://medium.com/).
+Simple react redux concept
