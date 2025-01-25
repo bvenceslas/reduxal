@@ -1,12 +1,15 @@
+import { Provider } from "react-redux";
 import "./App.css";
+import CakeContainer from "./components/CakeContainer";
+import store from "./redux/store";
 
 function App() {
   return (
-    <>
-      <div className="bg-gray">
-        <h1 className="text-red-700">Welcome to Reduxal</h1>
+    <Provider store={store}>
+      <div className="">
+        <CakeContainer />
       </div>
-    </>
+    </Provider>
   );
 }
 
